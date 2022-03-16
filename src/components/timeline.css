@@ -1,0 +1,19 @@
+/* For Firefox Browser */
+.scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #2a4365 #ddd;
+}
+
+
+/* For Chrome, EDGE, Opera, Others */
+.scrollbar::-webkit-scrollbar {
+    width: 10px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+    background: #ddd;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+    background:#2a4365;
+}

@@ -5,7 +5,7 @@ import bgImage from "../images/social.jpg";
 
 function HomeImage(props) {
     return (
-        <div className="w-full flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden relative">
+        <div className="bg-contain rounded-t lg:rounded-t-none lg:rounded-l overflow-hidden relative">
             <div className="absolute h=1/5 w=4/5 left=2/3 top=1/5 outline-shadow shadow-md">
                 <img src={logo}    width="200" alt="GeekzMeet"/>
             </div>
@@ -23,7 +23,7 @@ function HomeImage(props) {
                 </div>
 
             </div>
-            <img src={bgImage} alt="GeekzMeet Background Image"/>
+            <img src={bgImage}   alt="GeekzMeet Background "/>
         </div>
     );
 }
